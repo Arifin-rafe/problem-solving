@@ -1,6 +1,6 @@
-n = int(input())
+n = int(input("length of numbers : "))
 m = input().split()
-k = int(input())
+k = int(input("length of numbers : "))
 j = input().split()
 
 a = set(int(x) for x in m if len(range(n)))
