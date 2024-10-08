@@ -2,6 +2,7 @@ num = int(input())
 mod = int(input())
 
 res = divmod(num,mod)
-for x in res:
-    print(x)
+x,y = res
+print(x)
+print(y)
 print(res)
