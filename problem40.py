@@ -1,6 +1,6 @@
 #capitalize
-
-n = input("Enter name : ").split()
+#not solved
+n = input("Enter name : ").strip().split()
 
 name_list =[x for x in n]
 upper_list = []
