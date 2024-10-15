@@ -1,5 +1,4 @@
 from itertools import product
-import re
 a = input().split()
 b = input().split()
 a_list = [int(x) for x in a]
