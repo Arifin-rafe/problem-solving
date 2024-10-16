@@ -2,11 +2,10 @@
 #not solved
 n = input("Enter name : ").strip().split()
 
-name_list =[x for x in n]
-upper_list = []
-index = 0
+name_list =""
+
 for name in name_list:
-    if name[0] != name[0].isupper():
+    if name==name.isupper():
         name = name[0].upper() + name[1:]
         upper_list.append(name)
 # print(name_list)
