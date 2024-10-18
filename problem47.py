@@ -1,0 +1,6 @@
+n = input().split()
+H = set("Hacker")
+R = set("Rank")
+H.update(R)
+print (H)
+set(['a', 'c', 'e', 'H', 'k', 'n', 'r', 'R'])
