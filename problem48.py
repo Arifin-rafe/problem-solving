@@ -1,3 +1,6 @@
+#captains room
+#not solved
+
 k = int(input())
 room_list = list(map(int, input().split(' ')))
 room_set = set(room_list)
