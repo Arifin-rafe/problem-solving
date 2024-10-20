@@ -1,5 +1,7 @@
+#learn about zip
+
 n = input().split()
-gg = []
+append_tuple= []
 def convert_string(s):
     try:
         return int(s)
@@ -9,14 +11,14 @@ def convert_string(s):
         except ValueError:
             return s
 for _ in range(int(n[1])):
-    mm = input().split()
-    gg.append(tuple(convert_string(x) for x in mm))
-zipped = tuple(zip(*gg))
+    total_input = input().split()
+    append_tuple.append(tuple(convert_string(x) for x in total_input))
+zipped = tuple(zip(*append_tuple))
 print(zipped)
 
 for i in range(len(zipped)):
-    mama = sum(zipped[i])
-    print(round(mama/len(zipped[i]),2))
+    sum_tuples = sum(zipped[i])
+    print(round(sum_tuples/len(zipped[i]),2))
 
 
 
