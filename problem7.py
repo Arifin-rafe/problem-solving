@@ -10,5 +10,6 @@ numbers = map(int, input().split())
 t = tuple(numbers)
 
 # Compute and print the hash of the tuple
+
 print(hash(t))
 
