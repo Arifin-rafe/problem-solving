@@ -1,4 +1,4 @@
-#learn min max 
+#learn numpy min max 
 import numpy
 n = input().split()
 ll = []

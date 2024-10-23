@@ -1,5 +1,6 @@
-import numpy
+#learn numpy.concatenate
 
+import numpy
 j = input().split()
 n = int(j[0])
 m = int(j[1])
