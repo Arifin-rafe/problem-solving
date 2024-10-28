@@ -1,3 +1,5 @@
+#learn numpy prod and sum 
+
 import numpy
 
 n,m = input().split()
