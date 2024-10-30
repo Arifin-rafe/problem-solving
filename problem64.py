@@ -1,4 +1,7 @@
 #learn calender
 import calendar
-n=int(input())
-print(calendar.TextCalendar(firstweekday=6).formatyear(n))
+mo,da,ye=input().split()
+
+day_number = calendar.weekday(year=int(ye), month=int(mo), day=int(da))
+day_name = calendar.day_name[day_number]
+print(day_name)
