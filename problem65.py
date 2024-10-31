@@ -1,10 +1,15 @@
 from collections import namedtuple
+
 n = int(input())
 
-for _ in range(n):
-    pri,mil,col,clss = input().split()
-    Car = namedtuple('Car','Price Mileage Colour Class')
-    xyz = Car(Price = int(pri), Mileage = int(mil), Colour = col, Class = clss)
+student = namedtuple("Student", input().split())
 
-print (xyz)
-print (xyz.Class)
+total = 0
+
+for i in range(n):
+    ll = input().split()
+    st = student(*ll)
+    total += int(st.MARKS)
+
+average = total / n
+print(f"{average:.2f}")
